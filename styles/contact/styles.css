@@ -1,0 +1,90 @@
+body {
+	background-attachment: scroll;
+	background-image: url(/images/mona-eendra-vC8wj_Kphak-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: "Nunito Sans", sans-serif;
+	margin: 0 auto;
+}
+
+article {
+	margin: 1.5em auto;
+	width: 90%;
+	background-color: hsla(35, 52%, 76%, 0.5);
+	border: 5px solid hsla(0, 0%, 0%, 0.1);
+	border-radius: 1em;
+	text-align: center;
+	padding: 1.5em 1em;
+}
+
+input,
+textarea {
+	background-color: hsla(35, 80%, 76%, 0.3);
+	color: hsla(34, 19%, 26%, 1);
+}
+
+::placeholder {
+	color: hsla(34, 19%, 26%, 1);
+}
+
+input,
+textarea {
+	border: none;
+	border: 2px solid hsla(0, 0%, 0%, 0.5);
+	border-radius: 0.5em;
+	padding: 0.5em;
+	width: 18em;
+}
+
+input {
+	margin-top: 0.5em;
+	width: 15em;
+}
+
+.first-pt-contact-form {
+	margin: 0;
+}
+
+.first-pt-contact-form .contact-div:nth-child(3) label {
+	padding-right: 3em;
+}
+
+.contact-div {
+	padding: 0.5em;
+}
+
+.scnd-pt-contact-form {
+	margin-top: 1.5em;
+}
+
+.btn {
+	background-color: inherit;
+	border: 0.15em solid hsla(34, 19%, 26%, 1);
+	border-radius: 0.5em;
+	color: hsla(34, 19%, 26%, 1);
+	font-weight: bold;
+	margin: 0.5em;
+	padding: 0.5em 1.5em;
+}
+
+.btn:hover {
+	background-color: hsla(34, 19%, 26%, 1);
+	color: hsla(0, 100%, 100%, 1);
+	cursor: pointer;
+}
+
+footer {
+	font-size: 1.2em;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+footer .contact-foot a {
+	padding: 0.5em;
+	text-decoration: underline;
+}
+
+footer .contact-foot a:hover {
+	text-decoration: overline;
+	font-size: inherit;
+}

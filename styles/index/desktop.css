@@ -1,0 +1,21 @@
+article {
+	width: 70vw;
+}
+
+dl {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.content {
+	width: 80%;
+}
+
+.lang-hobbies {
+	display: flex;
+}
+
+.lang,
+.hobbies-with-title {
+	width: 50%;
+}

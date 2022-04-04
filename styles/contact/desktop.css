@@ -1,0 +1,17 @@
+article{
+	width: 70vw;
+}
+
+textarea {
+	width: 30em;
+}
+
+.first-pt-contact-form {
+	max-width: 90%;
+}
+
+@media (min-width:1440px) {
+	.first-pt-contact-form {
+		max-width: 60%;
+	}
+}
